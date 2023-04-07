@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: 'monserrat-reg';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+html {
+    font-family: 'monserrat-reg';
+    margin: 0 5%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh 0;
+    padding: 2vh 0;
+}
+
+.nav div:nth-of-type(1) input {
+    width: 10vw;
+    padding: 5px 3px;
+}
+.nav div:nth-of-type(1) button {
+    padding: 5px 20px;
+}
+
+.nav div:nth-of-type(2) input[name='language'] {
+    padding: 5px 20px;
+}
+
+.nav div:nth-of-type(2) label {
+    padding-right: 20px;
+    padding-left: 2px;
+}
+
+main {
+    text-align: center
+}
+
+img {
+    width: 60%;
+    margin: 5vh 0;
+}
+
+#showArticle p {
+    margin-bottom: 3vh;
+}
+
+#showArticle a {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
